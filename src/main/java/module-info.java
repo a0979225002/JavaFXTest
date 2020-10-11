@@ -10,4 +10,5 @@ module org.example {
     exports org.Animation;
     exports org.Panit_Coler;
     exports org.Effect;
+    exports org.SwitchingBetweenScenes;
 }

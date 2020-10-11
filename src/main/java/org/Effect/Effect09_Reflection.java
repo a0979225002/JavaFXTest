@@ -83,7 +83,7 @@ public class Effect09_Reflection extends Application {
         reflection.setTopOffset(10);//倒影跟物件差距10
         reflection.setFraction(0.5);//倒影顯示一半
 
-        reflection.setTopOpacity(0.3);//倒影,一開始透明度 0.3  
+        reflection.setTopOpacity(0.3);//倒影,一開始透明度 0.3
         reflection.setBottomOpacity(0);//延伸 到 完全透明
 
         return reflection;
