@@ -1,4 +1,4 @@
-package org.example;
+package org.Stage;
 
 import com.jfoenix.controls.JFXButton;
 import javafx.application.Application;

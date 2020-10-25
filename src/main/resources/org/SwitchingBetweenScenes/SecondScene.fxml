@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.control.TextArea?>
+<AnchorPane fx:id="scene_02" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.SwitchingBetweenScenes.Controller.SecondSceneController">
+   <children>
+      <JFXButton layoutX="305.0" layoutY="295.0" onAction="#go_back" style="-fx-background-radius: 30px;" text="Go Back" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0">
+         <font>
+            <Font name="Avenir Next Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="302.0" layoutY="224.0" onAction="#pass_data" style="-fx-background-radius: 30px;" text="Pass Data" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="250.0">
+         <font>
+            <Font name="Avenir Next Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <TextArea fx:id="data_text" layoutX="115.0" layoutY="39.0" promptText="Past or type you text Data" AnchorPane.bottomAnchor="160.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font name="Avenir Next Bold" size="16.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

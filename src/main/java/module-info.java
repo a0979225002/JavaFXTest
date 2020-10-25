@@ -4,9 +4,13 @@ module org.example {
     requires org.controlsfx.controls;
     requires fontawesomefx;
     requires com.jfoenix;
+    requires poi;
 
-    opens org.example to javafx.fxml;
-    exports org.example;
+    opens org.SwitchingBetweenScenes.Controller to javafx.fxml;
+    opens org.example.ThreadToExcel.Controller to javafx.fxml;
+
+    exports org.Stage;
+    exports org.example.ThreadToExcel;
     exports org.Animation;
     exports org.Panit_Coler;
     exports org.Effect;

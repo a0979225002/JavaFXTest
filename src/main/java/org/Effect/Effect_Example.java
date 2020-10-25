@@ -21,7 +21,7 @@ import javafx.util.Duration;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class Effect11_Example extends Application {
+public class Effect_Example extends Application {
     StackPane stackPane01 = null;
     StackPane stackPane02 = null;
     StackPane stackPane03 = null;

@@ -13,9 +13,7 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
-import org.example.App;
 
-import java.io.File;
 import java.net.URL;
 
 public class imagePanit02 extends Application {

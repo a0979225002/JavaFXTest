@@ -1,4 +1,4 @@
-package org.example;
+package org.Stage;
 
 import javafx.application.Application;
 import javafx.application.ConditionalFeature;
@@ -14,7 +14,7 @@ public class App4 extends Application {
         System.out.println("當前Thread:"+Thread.currentThread().getName());//同Thread
 
         //作用當程式執行時,會自動更新ui介面
-        //注意:使用時別使用需要大量效能的動作，比如下載,不然程式會卡死
+        //注意:使用時，別使用需要大量效能的動作比如下載,不然程式會卡死
         //會耗費大量效能動作需使用其他方法
         Platform.runLater(new Runnable() {
             @Override

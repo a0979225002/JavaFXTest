@@ -1,4 +1,4 @@
-package org.example;
+package org.Stage;
 
 import javafx.application.Application;
 import javafx.stage.Modality;

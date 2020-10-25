@@ -26,7 +26,7 @@ import java.net.URL;
 import java.util.function.Consumer;
 
 /**
- * DisplacementMap() 隱藏
+ * DisplacementMap() 隱藏,切割位移
  */
 public class Effect10_DisplacementMap extends Application {
     @Override

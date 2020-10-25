@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="scene_01" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.SwitchingBetweenScenes.Controller.RootLayoutController">
+   <children>
+      <Label fx:id="label" alignment="CENTER" layoutX="306.0" layoutY="76.0" maxHeight="-Infinity" maxWidth="-Infinity" text="Hello,I'am Scene One" textAlignment="JUSTIFY" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font name="Baloo Tamma Regular" size="25.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="button" layoutX="330.0" layoutY="297.0" onAction="#open_second_scene" prefHeight="35.0" style="-fx-background-radius: 35px;" text="Open New Scene" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0">
+         <font>
+            <Font name="Avenir Next Bold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
